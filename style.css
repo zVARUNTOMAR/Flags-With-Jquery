@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eaf6f6;
+}
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+  }
+  
+  .navbar {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003865;
+    margin: 0;
+    height: 50px;
+    color:white;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .controls {
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap : 20px;
+  }
+  
+  .controls input {
+    width: 300px;
+    height: 45px;
+    padding: 7px;
+    border: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.05em;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .controls input:focus {
+    outline: none;
+  }
+  
+  .controls select {
+    width: 250px;
+    height: 45px;
+    padding-left: 10px;
+    border: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.05em;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .controls select:focus {
+    outline: none;
+  }
+  
+  .main-container {
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 145px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 324px;
+    border: 1px solid red;
+    background-color: white;
+    border: 1px solid #f0f2f5;
+  }
+  
+  img {
+    width: 322px;
+    height:240px;
+  }
+  
+  .details-container {
+    padding: 10px;
+    height:170px;
+  }
+  
+  .heading{
+    /* padding : 5px; */
+    font-weight: bold;
+    font-size:1.2em;
+  }
+
+  .card{
+    border:1px solid #ccc;
+    /* Create a shadow */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* anchor tag with no styling*/
+  a{
+    text-decoration: none;
+    color:white;
+    /* border: 1px solid red; */
+  }
+
+  .btn{
+    padding:10px 10px;
+    border  :0px;
+    margin-top:10px;
+    width:max-content;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.09em;
+    background-color:#D61C4E;
+    color:white;
+    border-radius:5px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    outline: 0;
+    background-color:#b1133d;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+  }
+  
+  .navbar {
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003865;
+    margin: 0;
+    height: 50px;
+    color:white;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+  }
+  
+  .controls {
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap : 20px;
+  }
+  
+  .controls input {
+    width: 300px;
+    height: 45px;
+    padding: 7px;
+    border: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.05em;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .controls input:focus {
+    outline: none;
+  }
+  
+  .controls select {
+    width: 250px;
+    height: 45px;
+    padding-left: 10px;
+    border: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.05em;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  
+  .controls select:focus {
+    outline: none;
+  }
+  
+  .main-container {
+    margin-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    gap: 145px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 324px;
+    border: 1px solid red;
+    background-color: white;
+    border: 1px solid #f0f2f5;
+  }
+  
+  img {
+    width: 322px;
+    height:240px;
+  }
+  
+  .details-container {
+    padding: 10px;
+    height:170px;
+  }
+  
+  .heading{
+    /* padding : 5px; */
+    font-weight: bold;
+    font-size:1.2em;
+  }
+
+  .card{
+    border:1px solid #ccc;
+    /* Create a shadow */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* anchor tag with no styling*/
+  a{
+    text-decoration: none;
+    color:white;
+  }
+
+  .btn{
+    padding:10px 10px;
+    border  :0px;
+    margin-top:10px;
+    width:max-content;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:1.09em;
+    background-color:#D61C4E;
+    color:white;
+    border-radius:5px;
+  }
+
+  .btn:hover{
+    cursor: pointer;
+    outline: 0;
+    background-color:#b1133d;
+  }

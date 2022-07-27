@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <title>Flag Pagination</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <p class="logo">Where in the world?</p>
+      <div class="container">
+        <a href=""
+          ><span class="material-symbols-outlined"> dark_mode </span></a
+        >
+        <a href="">Dark Mode</a>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input type="text" placeholder="Search for a country..." class="search" />
+      <select name="" id="region" class="region">
+        <option value="Filter By Region" selected disabled>
+          Filter By Region
+        </option>
+        <option value="Africa">Africa</option>
+        <option value="Asia">Asia</option>
+        <option value="Americas">Americas</option>
+        <option value="oceania">Oceania</option>
+        <option value="Europe">Europe</option>
+        <option value="All">All</option>
+      </select>
+
+      <select name="" id="sort" class="sort">
+        <option value="Sort Countries" selected disabled>Sort Countries</option>
+        <option value="name">Name</option>
+        <option value="region">Region</option>
+        <option value="population">Population</option>
+      </select>
+    </div>
+
+    <div class="main-container" style="margin-bottom: 100px"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
